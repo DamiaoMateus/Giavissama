@@ -1,0 +1,7 @@
+1 - Colocar a o projecto na pasta htdocs(se for xamp) ou www(se for wamp)
+2 - executar o script da bd esta na pasta bd do projecto unica/bd
+	o nome da bd é profrit.sql
+3 - no painel do PHPmyadmin abra a bd e entra em SQL e executa esse script  :
+    call insertAdmin ('root','bie','Angolana','M','22-02-1997','viana','923443322','root@prituaria.com','root','3322'); 
+4 - para Logares como Admnistrador coloca o link AdminLogin.php
+5 - depois desses passos todos podes cadastrar matriculas, fazer ogamentos, validar e consultar alunos e seus pagamentos 

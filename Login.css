@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("img/17.jpg");
+    background-position: 50% 70%;
+    color: black;
+    font-family: arial;
+}
+
+input {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+}
+
+div#corpo-form {
+    /* background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#corpo-form-Cad {
+    /* background-color: red;*/
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-Cad h1{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px solid rgb(165,42,42);
+}
